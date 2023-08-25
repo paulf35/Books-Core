@@ -2,7 +2,7 @@
 ## Assignment:
 Consider the following "flat" file that a start-up has just started using for its first customers: Client's Original File. They quickly realized that saving this information in .csv format will not meet their needs as they grow. First, consider how you would design a relational database to meet their needs. Be sure to consider conventions of normalization and what information should be separated.
 
-##Part 1: Design an ERD
+## Part 1: Design an ERD
 Create an ERD (figure out how many tables to include and the relationships between them) to represent a database that tracks users and their favorite books. Here are some considerations as you design the database:
 
 For the purposes of this assignment, you may assume that each book only has one author (or that we are only tracking the primary author), but that the same author may have written multiple books.
@@ -13,7 +13,7 @@ Note that each user will have multiple favorite books, and a book could certainl
 Use the MySQL Workbench for designing the ERD.
 Hint: When you link two tables with a many to many relationship, MySQL Workbench will automatically create a joiner table for you! It will also automatically make the keys primary keys, which you will want to uncheck.
 
-Part 2: Create the database in Python
+## Part 2: Create the database in Python
 
 Continue working in Jupyter Notebook with the ERD image.
 
