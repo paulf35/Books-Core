@@ -14,7 +14,6 @@ Use the MySQL Workbench for designing the ERD.
 Hint: When you link two tables with a many to many relationship, MySQL Workbench will automatically create a joiner table for you! It will also automatically make the keys primary keys, which you will want to uncheck.
 
 ## Part 2: Create the database in Python
-
 Continue working in Jupyter Notebook with the ERD image.
 
 Rather than creating the database in MySQL workbench with forward engineering, we are going to develop our Python skills by creating the database in Python using PyMySQL that you practiced in the "MySQL with Python" lesson.
